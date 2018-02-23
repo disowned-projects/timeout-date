@@ -1,7 +1,7 @@
 {
   "name": "timeout-date",
   "description": "Set timeout using date objects",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
@@ -16,7 +16,11 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": ["cosmo format -f", "cosmo lint -f", "git add"]
+    "*.js": [
+      "cosmo format -f",
+      "cosmo lint -f",
+      "git add"
+    ]
   },
   "author": {
     "name": "Siddharth Doshi",
