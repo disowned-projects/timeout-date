@@ -1,7 +1,7 @@
 {
   "name": "timeout-date",
   "description": "Set timeout using date objects",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
