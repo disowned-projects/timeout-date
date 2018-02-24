@@ -13,7 +13,7 @@ npm install --save timeout-date
 ## Usage
 
 ```js
-const timeoutDate = require('timeout-date')
+const timeoutDate = require('timeout-date').default
 
 // Current time is 'Sat Feb 24 2018 5:00:00 GMT+0530 (IST)'
 const date = new Date('Sat Feb 24 2018 5:30:00 GMT+0530 (IST)')
